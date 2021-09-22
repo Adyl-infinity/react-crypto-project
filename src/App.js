@@ -1,4 +1,3 @@
-import Login from "./Login";
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./Views/Home";
@@ -6,7 +5,7 @@ import Tasks from "./Views/Tasks";
 import Orders from "./Views/Orders";
 import Calendar from "./Views/Calendar";
 import Layout from "./Components/Layout";
-import Modal from "./Components/Modals";
+
 
 function App() {
   return (
