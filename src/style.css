@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+
+.login {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.logo__img {
+    width: 200px;
+    height: 120px;
+}
+
+.input__style {
+    width: 200px;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 4px;
+    border: 1px solid darkblue;
+}
+
+.btn {
+    width: 210px;
+    height: 35px;
+    background-color: #B400C8;
+    border: 1px solid transparent ;
+    color: whitesmoke;
+}
+
+.input__description {
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.input__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-right: 85px;
+}
+
+.prompt {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #B400C8;
+}
+
+.hero {
+    display: flex;
+}
+
+.leftbar {
+    width: 20%;
+    height: 100vh;
+    border: 1px solid #2D005F;
+    border-radius: 8px;
+    background-color: #2C005F;
+}
+.rightbar {
+    width: 70%;
+}
+
+.add-btn {
+    border: 1px solid #B400C9;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #B400C9;
+    font-weight: bold;
+}
+
+.links__custom {
+    font-family: 'Comfortaa', cursive;
+}
+
+.link__custom {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.modal-btn {
+    border: 1px solid #B400C9;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #B400C9;
+    font-weight: bold;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.box{
+    border: 1px solid rgba(13, 45, 204, 0.58);
+    width: 252px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+
+.project__img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project__desc {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.project__item {
+    display: flex;
+}

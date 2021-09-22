@@ -2,20 +2,39 @@
   "name": "test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^10.3.4",
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "latest": "^0.2.0",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.4",
+    "react-modal": "^3.14.3",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-use-form": "^0.1.0",
+    "redux": "^4.1.1",
+    "tailwindcss": "^2.2.9",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run watch:css && react-scripts start",
+    "server": "nodemon server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css"
   },
   "eslintConfig": {
     "extends": [
